@@ -54,7 +54,7 @@ class Todo{
   }
   // does the oposite of map ie takes in an object and transforms it
   // to a todoo
-  Todo.fromObject(dynamic, obj){
+  Todo.fromObject(dynamic obj){
     this._id = obj['id'];
     this._title = obj['title'];
     this._description = obj['description'];
